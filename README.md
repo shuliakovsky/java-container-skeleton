@@ -66,7 +66,6 @@ The solution is based on two artifacts: a `docker-entrypoint.sh` script that det
 
 ## Dockerfile
   ```Dockerfile
-# Actual container when arch=linux/amd64
 FROM eclipse-temurin:24-jdk-alpine AS final
 
 # Define build arguments
